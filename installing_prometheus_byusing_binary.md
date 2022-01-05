@@ -1,14 +1,14 @@
-### Installing Prometheus 
-# downloding binary file
+# Installing Prometheus 
+## downloding binary file
 prereqisites
 * Linux Server
 * wget
-# prerequisites package downloding using apt-get package manager
+## prerequisites package downloding using apt-get package manager
 ```
 sudo apt-get update
 sudo apt-get install wget -y
 ```
-# downloding package
+## downloding package
 [referal link](https://prometheus.io/download/)
 downloding tar file
 ```
