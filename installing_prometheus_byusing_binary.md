@@ -18,7 +18,7 @@ untar the file
 ```
 tar -xvf prometheus-2.32.1.linux-amd64.tar.gz
 ```
-change the path package folder and start the service
+change the path to package folder and start the service
 ```
 ./prometheus
 ```
