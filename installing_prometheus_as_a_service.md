@@ -34,7 +34,7 @@ cp -r . /usr/local/bin/prometheus
 ```
 then create a service file
 ```
-sudo echo "[Unit]
+echo "[Unit]
 Description=Prometheus Service
 After=network.target
 
@@ -43,11 +43,11 @@ Type=simple
 ExecStart=/usr/local/bin/prometheus/prometheus --config.file=/usr/local/bin/prometheus/prometheus.yml
 
 [Install]
-WantedBy=multi-user.target" |sudo cat >/etc/systemd/system/prometheus.service 
+WantedBy=multi-user.target" | cat >/etc/systemd/system/prometheus.service 
 ```
 or
 ```
-sudo cat <<EOF > /etc/systemd/system/prometheus.service
+cat <<EOF > /etc/systemd/system/prometheus.service
 [Unit]
 Description=Prometheus Service
 After=network.target
